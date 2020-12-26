@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name hardware)(type KiCad)(uri /home/fgervais/personal/esp32-wrover-breakout/hardware)(options "")(descr ""))
+  (lib (name ESP32-WROVER-E)(type KiCad)(uri ${KIPRJMOD}/kicad-library/ESP32-WROVER-E)(options "")(descr ""))
+)
