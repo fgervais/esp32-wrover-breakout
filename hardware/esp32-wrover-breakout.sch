@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP32-WROVER-E_M213EH6464PH3Q0:ESP32-WROVER-E_M213EH6464PH3Q0_ IC?
+L ESP32-WROVER-E_M213EH6464PH3Q0:ESP32-WROVER-E_M213EH6464PH3Q0_ IC1
 U 1 1 5FE6A6FF
 P 2750 3800
-F 0 "IC?" H 3500 4065 50  0000 C CNN
+F 0 "IC1" H 3500 4065 50  0000 C CNN
 F 1 "ESP32-WROVER-E_M213EH6464PH3Q0_" H 3500 3974 50  0000 C CNN
 F 2 "ESP32WROVEREM213EH6464PH3Q0" H 4100 3900 50  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/891/esp32-wrover-e_esp32-wrover-ie_datasheet_en-1855913.pdf" H 4100 3800 50  0001 L CNN
@@ -33,12 +33,12 @@ F 11 "" H 4100 3000 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MUN5214DW1T1G:MUN5214DW1T1G Q?
+L MUN5214DW1T1G:MUN5214DW1T1G Q1
 U 2 1 5FE8E343
 P 8000 2550
-F 0 "Q?" H 8544 2596 50  0000 L CNN
+F 0 "Q1" H 8544 2596 50  0000 L CNN
 F 1 "MUN5214DW1T1G" H 8544 2505 50  0000 L CNN
-F 2 "On_Semiconductor-MUN5214DW1T1G-*" H 8000 3150 50  0001 L CNN
+F 2 "MUN5214DW1T1G:On_Semiconductor-MUN5214DW1T1G-Manufacturer_Recommended" H 8000 3150 50  0001 L CNN
 F 3 "http://www.onsemi.cn/pub_link/Collateral/DTC114YD-D.PDF" H 8000 3250 50  0001 L CNN
 F 4 "Manufacturer URL" H 8000 3350 50  0001 L CNN "Component Link 1 Description"
 F 5 "http://www.onsemi.com/" H 8000 3450 50  0001 L CNN "Component Link 1 URL"
@@ -66,10 +66,8 @@ F 26 "yes" H 8000 5550 50  0001 L CNN "imported"
 	2    8000 2550
 	1    0    0    1   
 $EndComp
-Text Label 7450 3950 0    50   ~ 0
+Text Label 7450 4050 0    50   ~ 0
 RX
-Wire Wire Line
-	7650 3950 7450 3950
 Wire Wire Line
 	7650 4050 7450 4050
 Wire Wire Line
@@ -78,8 +76,6 @@ Wire Wire Line
 	7650 4250 7450 4250
 Wire Wire Line
 	7650 4350 7450 4350
-Text Label 7450 4350 0    50   ~ 0
-GND
 $Comp
 L power:GND #PWR0101
 U 1 1 5FEE23C4
@@ -140,23 +136,23 @@ Connection ~ 4350 5200
 Wire Wire Line
 	4350 6150 4350 6000
 Connection ~ 4350 6000
-Text Label 7450 4050 0    50   ~ 0
-TX
 Text Label 7450 4150 0    50   ~ 0
-RTS
+TX
 Text Label 7450 4250 0    50   ~ 0
+RTS
+Text Label 7450 4350 0    50   ~ 0
 DTR
 Text Label 4350 4700 0    50   ~ 0
 RX
 Text Label 4350 4800 0    50   ~ 0
 TX
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 5FF3A196
 P 2300 4150
-F 0 "C?" H 2392 4196 50  0000 L CNN
+F 0 "C3" H 2392 4196 50  0000 L CNN
 F 1 "0.1uF" H 2392 4105 50  0000 L CNN
-F 2 "" H 2300 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2300 4150 50  0001 C CNN
 F 3 "~" H 2300 4150 50  0001 C CNN
 	1    2300 4150
 	1    0    0    -1  
@@ -181,12 +177,12 @@ Wire Wire Line
 Text Label 2450 4000 0    50   ~ 0
 RESET
 $Comp
-L MUN5214DW1T1G:MUN5214DW1T1G Q?
+L MUN5214DW1T1G:MUN5214DW1T1G Q1
 U 1 1 5FE8C204
 P 8000 1700
-F 0 "Q?" H 8544 1746 50  0000 L CNN
+F 0 "Q1" H 8544 1746 50  0000 L CNN
 F 1 "MUN5214DW1T1G" H 8544 1655 50  0000 L CNN
-F 2 "On_Semiconductor-MUN5214DW1T1G-*" H 8000 2300 50  0001 L CNN
+F 2 "MUN5214DW1T1G:On_Semiconductor-MUN5214DW1T1G-Manufacturer_Recommended" H 8000 2300 50  0001 L CNN
 F 3 "http://www.onsemi.cn/pub_link/Collateral/DTC114YD-D.PDF" H 8000 2400 50  0001 L CNN
 F 4 "Manufacturer URL" H 8000 2500 50  0001 L CNN "Component Link 1 Description"
 F 5 "http://www.onsemi.com/" H 8000 2600 50  0001 L CNN "Component Link 1 URL"
@@ -251,23 +247,23 @@ RTS
 Text Label 7750 2550 0    50   ~ 0
 DTR
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 5FFB1EE5
 P 1250 1600
-F 0 "C?" H 1342 1646 50  0000 L CNN
+F 0 "C1" H 1342 1646 50  0000 L CNN
 F 1 "10uF" H 1342 1555 50  0000 L CNN
-F 2 "" H 1250 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1250 1600 50  0001 C CNN
 F 3 "~" H 1250 1600 50  0001 C CNN
 	1    1250 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 5FFB2B3F
 P 2800 1550
-F 0 "C?" H 2892 1596 50  0000 L CNN
+F 0 "C4" H 2892 1596 50  0000 L CNN
 F 1 "10uF" H 2892 1505 50  0000 L CNN
-F 2 "" H 2800 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2800 1550 50  0001 C CNN
 F 3 "~" H 2800 1550 50  0001 C CNN
 	1    2800 1550
 	1    0    0    -1  
@@ -297,10 +293,10 @@ F 3 "" H 2150 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:XC6220B331MR U?
+L Regulator_Linear:XC6220B331MR U1
 U 1 1 5FE8C427
 P 2150 1500
-F 0 "U?" H 2150 1867 50  0000 C CNN
+F 0 "U1" H 2150 1867 50  0000 C CNN
 F 1 "XC6220B331MR" H 2150 1776 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2150 1500 50  0001 C CNN
 F 3 "https://www.torexsemi.com/file/xc6220/XC6220.pdf" H 2900 500 50  0001 C CNN
@@ -381,12 +377,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 3500 2500 3900
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 600095DC
 P 1400 3750
-F 0 "C?" H 1492 3796 50  0000 L CNN
+F 0 "C2" H 1492 3796 50  0000 L CNN
 F 1 "0.1uF" H 1492 3705 50  0000 L CNN
-F 2 "" H 1400 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1400 3750 50  0001 C CNN
 F 3 "~" H 1400 3750 50  0001 C CNN
 	1    1400 3750
 	1    0    0    -1  
@@ -456,7 +452,7 @@ GPIO27
 Text Label 2450 5000 0    50   ~ 0
 GPIO14
 Text Label 2450 6000 0    50   ~ 0
-GPIO23
+GPIO15
 Text Label 4300 3800 0    50   ~ 0
 GPIO0
 Wire Wire Line
@@ -498,8 +494,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 5250 7650 5250
 Wire Wire Line
-	7300 5150 7650 5150
-Wire Wire Line
 	7300 5050 7650 5050
 Wire Wire Line
 	7300 4950 7650 4950
@@ -508,34 +502,23 @@ Wire Wire Line
 Text Label 7300 4850 0    50   ~ 0
 GPIO25
 $Comp
-L Connector:Conn_01x05_Male J?
-U 1 1 5FE8BD4D
-P 7850 4150
-F 0 "J?" H 8250 4600 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 8250 4500 50  0000 R CNN
-F 2 "" H 7850 4150 50  0001 C CNN
-F 3 "~" H 7850 4150 50  0001 C CNN
-	1    7850 4150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male J?
+L Connector:Conn_01x10_Male J3
 U 1 1 5FE8D4C8
 P 8800 5250
-F 0 "J?" H 9350 5900 50  0000 R CNN
+F 0 "J3" H 9350 5900 50  0000 R CNN
 F 1 "Conn_01x10_Male" H 9350 5800 50  0000 R CNN
-F 2 "" H 8800 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8800 5250 50  0001 C CNN
 F 3 "~" H 8800 5250 50  0001 C CNN
 	1    8800 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x10_Male J?
+L Connector:Conn_01x10_Male J2
 U 1 1 5FE8CA6B
 P 7850 5250
-F 0 "J?" H 8400 5900 50  0000 R CNN
+F 0 "J2" H 8400 5900 50  0000 R CNN
 F 1 "Conn_01x10_Male" H 8400 5800 50  0000 R CNN
-F 2 "" H 7850 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7850 5250 50  0001 C CNN
 F 3 "~" H 7850 5250 50  0001 C CNN
 	1    7850 5250
 	-1   0    0    -1  
@@ -596,10 +579,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 5650 7650 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 600E79DD
 P 8100 4900
-F 0 "#PWR?" H 8100 4650 50  0001 C CNN
+F 0 "#PWR0113" H 8100 4650 50  0001 C CNN
 F 1 "GND" H 8105 4727 50  0000 C CNN
 F 2 "" H 8100 4900 50  0001 C CNN
 F 3 "" H 8100 4900 50  0001 C CNN
@@ -634,4 +617,25 @@ Text Label 8250 5650 0    50   ~ 0
 GPIO19
 Text Label 8250 5750 0    50   ~ 0
 GPIO23
+Wire Wire Line
+	7650 5150 7300 5150
+Wire Wire Line
+	4250 4900 4550 4900
+Wire Wire Line
+	4550 4600 4250 4600
+Text Label 4300 4900 0    50   ~ 0
+GPIO22
+Text Label 4300 4600 0    50   ~ 0
+GPIO21
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5FE8BD4D
+P 7850 4150
+F 0 "J1" H 8250 4550 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8250 4450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 4150 50  0001 C CNN
+F 3 "~" H 7850 4150 50  0001 C CNN
+	1    7850 4150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
