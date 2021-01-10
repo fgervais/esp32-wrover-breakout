@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP32-WROVER-E_M213EH6464PH3Q0)(type Legacy)(uri ${KIPRJMOD}/kicad-library/ESP32-WROVER-E/ESP32-WROVER-E_M213EH6464PH3Q0.lib)(options "")(descr ""))
+  (lib (name MUN5214DW1T1G)(type Legacy)(uri ${KIPRJMOD}/kicad-library/MUN5214DW1T1G/MUN5214DW1T1G.lib)(options "")(descr ""))
+  (lib (name B6B-ZR_LF__SN_)(type Legacy)(uri "${KIPRJMOD}/kicad-library/B6B-ZR(LF)(SN)/B6B-ZR_LF__SN_.lib")(options "")(descr ""))
+)
