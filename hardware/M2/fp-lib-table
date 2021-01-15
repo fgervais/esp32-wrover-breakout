@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name hardware)(type KiCad)(uri /home/fgervais/personal/esp32-wrover-breakout/hardware)(options "")(descr ""))
+  (lib (name ESP32-WROVER-E)(type KiCad)(uri ${KIPRJMOD}/kicad-library/ESP32-WROVER-E)(options "")(descr ""))
+  (lib (name MUN5214DW1T1G)(type KiCad)(uri ${KIPRJMOD}/kicad-library/MUN5214DW1T1G/MUN5214DW1T1G.pretty)(options "")(descr ""))
+  (lib (name "B6B-ZR(LF)(SN)")(type KiCad)(uri "${KIPRJMOD}/kicad-library/B6B-ZR(LF)(SN)")(options "")(descr ""))
+  (lib (name NGFF)(type KiCad)(uri ${KIPRJMOD}/kicad-library/kicad-ngff/NGFF.pretty)(options "")(descr ""))
+)
