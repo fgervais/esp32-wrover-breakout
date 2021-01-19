@@ -760,4 +760,7 @@ Wire Wire Line
 Connection ~ 9000 1700
 Wire Wire Line
 	9000 1700 9400 1700
+NoConn ~ 10000 4200
+NoConn ~ 10000 4300
+NoConn ~ 10000 4400
 $EndSCHEMATC
