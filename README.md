@@ -10,3 +10,4 @@ at around 10$ CAD which is the goal of this project.
 # Breadboard version
 
 ![Bare PCBs](assets/img/breadboard/bare_pcbs.jpeg)
+![Populated Board](assets/img/breadboard/populated.jpeg)
