@@ -10,3 +10,7 @@ at around 10$ CAD which is the goal of this project.
 # Breadboard version
 
 ![On Breadboard](assets/img/breadboard/on_breadboard.jpeg)
+
+# M.2 Version
+
+![With Breadboard Adapter](assets/img/M2/with_breadboard_adapter.jpeg)
