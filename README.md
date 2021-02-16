@@ -9,6 +9,8 @@ at around 10$ CAD which is the goal of this project.
 
 # Breadboard Version
 
+![On Breadboard](assets/img/breadboard/on_breadboard.jpeg)
+
 ## Price
 
 The bare PCB costs 2.67$ CAD from OSH Park.
@@ -20,13 +22,13 @@ Total is 10.76$ CAD (worst case)
 
 [Digikey BOM](https://www.digikey.ca/BOM/Create/CreateSharedBom?bomId=8507784)
 
-![On Breadboard](assets/img/breadboard/on_breadboard.jpeg)
-
 # M.2 Version
+
+![With Breadboard Adapter](assets/img/M2/with_breadboard_adapter.jpeg)
+
+## Price
 
 Bare PCB (OSH Park): 3.47$ CAD
 BOM (Digikey, 1 unit): 7.84$ CAD
 
 Total: 11.31$ CAD (worst case)
-
-![With Breadboard Adapter](assets/img/M2/with_breadboard_adapter.jpeg)
