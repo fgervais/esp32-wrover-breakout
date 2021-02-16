@@ -9,10 +9,16 @@ at around 10$ CAD which is the goal of this project.
 
 # Breadboard Version
 
+## Price
+
 The bare PCB costs 2.67$ CAD from OSH Park.
 Digikey BOM cost for 1 unit is 8.09$ CAD.
 
 Total is 10.76$ CAD (worst case)
+
+## BOM
+
+[Digikey BOM](https://www.digikey.ca/BOM/Create/CreateSharedBom?bomId=8507784)
 
 ![On Breadboard](assets/img/breadboard/on_breadboard.jpeg)
 
