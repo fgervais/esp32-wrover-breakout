@@ -32,3 +32,7 @@ Bare PCB (OSH Park): 3.47$ CAD
 BOM (Digikey, 1 unit): 7.84$ CAD
 
 Total: 11.31$ CAD (worst case)
+
+## BOM
+
+[Digikey BOM](https://www.digikey.ca/BOM/Create/CreateSharedBom?bomId=8549197)
