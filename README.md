@@ -18,6 +18,10 @@ Digikey BOM cost for 1 unit is 8.09$ CAD.
 
 Total is 10.76$ CAD (worst case)
 
+## PCB
+
+[OSH Park](https://oshpark.com/shared_projects/hciJOsgc)
+
 ## BOM
 
 [Digikey BOM](https://www.digikey.ca/BOM/Create/CreateSharedBom?bomId=8507784)
