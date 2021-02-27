@@ -32,8 +32,8 @@ The programming is done through the JST connector using the
 [Adafruit 3309](https://www.adafruit.com/product/3309) along
 with the following adapter:
 
-[Github](https://github.com/fgervais/project-adafruit-3309-adapter/tree/master/hardware/jst-zh)
-[OSH Park](https://oshpark.com/shared_projects/B9to99oI)
+- [Github](https://github.com/fgervais/project-adafruit-3309-adapter/tree/master/hardware/jst-zh)
+- [OSH Park](https://oshpark.com/shared_projects/B9to99oI)
 
 ### Firmware
 
