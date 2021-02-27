@@ -26,6 +26,25 @@ Total is 10.76$ CAD (worst case)
 
 [Digikey BOM](https://www.digikey.ca/BOM/Create/CreateSharedBom?bomId=8507784)
 
+## Programming
+
+The programming is done through the JST connector using the 
+[Adafruit 3309](https://www.adafruit.com/product/3309) along
+with the following adapter:
+
+[Github](https://github.com/fgervais/project-adafruit-3309-adapter/tree/master/hardware/jst-zh)
+[OSH Park](https://oshpark.com/shared_projects/B9to99oI)
+
+### Firmware
+
+The GENERIC-SPIRAM firmware can be downloaded from the following page:
+
+https://micropython.org/download/esp32/
+
+The module has been validated to work with:
+
+esp32spiram-idf4-20210202-v1.14.bin
+
 # M.2 Version
 
 ![With Breadboard Adapter](assets/img/M2/with_breadboard_adapter.jpeg)
